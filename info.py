@@ -1,8 +1,8 @@
-import recent
+import re
 from os import environ,getenv
 from Script import script
 
-id_pattern = recent.compile(recent'^.\d+$')
+id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
         return True
