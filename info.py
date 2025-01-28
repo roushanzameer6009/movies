@@ -25,9 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/LiveBollywood4k
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002265690150').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://breakupsadstoryrz:breakupsadstoryrz@livemovie.svyws.mongodb.net/?retryWrites=true&w=majority&appName=LiveMovie
-")
-DATABASE_NAME = environ.get('DATABASE_NAME', "LiveMovie")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://breakupsadstoryrz:breakupsadstoryrz@cluster1.hsts0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
