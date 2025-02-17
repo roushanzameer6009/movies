@@ -175,7 +175,7 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'https://t.me/ARGroupMovie{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
@@ -187,7 +187,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
-                        m=await message.reply_sticker("CAACAgUAAxkBAAENy8lnsFe_w2sb1WGmZNvx8bF-fe-7vwACFBQAAosjgVXgv7exCQebRDYE") 
+                        m=await message.reply_sticker("CAACAgIAAxkBAAEN0LRnszfXIiai1Jng7DqpFDtx_QAB-hoAAuARAALkiVlJrPm4KorPfeg2BA") 
                         await asyncio.sleep(1)
                         await m.delete()
                         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -216,7 +216,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAENy8lnsFe_w2sb1WGmZNvx8bF-fe-7vwACFBQAAosjgVXgv7exCQebRDYE") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAEN0LRnszfXIiai1Jng7DqpFDtx_QAB-hoAAuARAALkiVlJrPm4KorPfeg2BA") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
