@@ -144,11 +144,7 @@ User - {}"""
     
 1 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
 29 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ Weeks 😚
-55 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ ᴍᴏɴᴛʜs 😗
-99 ʀᴜᴘᴇᴇs ғᴏʀ ᴛᴡᴏ ᴍᴏɴᴛʜs 😗
-199 ʀᴜᴘᴇᴇs ғᴏʀ THREE ᴍᴏɴᴛʜs 😗
-299 ʀᴜᴘᴇᴇs ғᴏʀ SIX ᴍᴏɴᴛʜs 😗
-399 ʀᴜᴘᴇᴇs ғᴏʀ TWELVE ᴍᴏɴᴛʜs 😗
+
 
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ʙᴜʏɪɴɢ ↡↡↡
 </b>"""
@@ -298,7 +294,7 @@ User - {}"""
 ➩ /set_ads {ads name}}#{Times}#{photo URL} - <a href="https://t.me/LiveBollywood4kMovies">Explain</a>
 ➩ /del_ads - Delete ads
 -------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href=https://t.me/LiveBollywood4kMovies>Explain</a>
+➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/LiveBollywood4kMovies>Explain</a>
 ➩ /clearlist - Clear all lists
 </blockquote></b>"""
 
